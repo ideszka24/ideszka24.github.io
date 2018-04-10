@@ -1,0 +1,92 @@
+doctype html
+html
+  head
+    title Research
+    link(rel="icon", type="image/png", href="logo-new.png")
+    link(href='https://fonts.googleapis.com/css?family=Raleway:300,400,700', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700', rel='stylesheet')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+    link(rel='stylesheet', type='text/css', href='index.css')
+    meta(http-equiv="refresh" content="300")
+    link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+  body   
+    script(src='factory.js', type='text/javascript')
+    script(src='core.js', type='text/javascript')
+    header
+        h1 AVEBE
+        #menu
+            a(href='index.html')
+                h1.menubutton#logout Log Out
+            a(href='factory.html')
+                h1.menubutton#allshipments All Shipments
+            h1#welcome Welcome, Factory
+    #filler
+    #content
+        #buttons
+            #newshipment
+                h9 New Farmer
+                i.material-icons#newshipmentbutton add
+            #newshipment2
+                h9 New Driver
+                i.material-icons#newshipmentbutton2 add
+            #newshipment3
+                h9 New Contract Farmer
+                i.material-icons#newshipmentbutton3 add
+            #newshipment4
+                h9 New Contract Driver
+                i.material-icons#newshipmentbutton4 add
+        #newshipmentform
+            h5.form First Name
+            input#newfirst
+            h5.form Last Name
+            input#newlast
+            h5.form email
+            input#newemail
+            h5.form City
+            input#newcity
+            h5.form Street
+            input#newstreet
+            h5.form Zip Code
+            input#newzip
+            h5.form ID
+            input#newid
+            h5.form#complete Complete
+        #newshipmentform2
+            h5.form First Name
+            input#newfirst2
+            h5.form Last Name
+            input#newlast2
+            h5.form email
+            input#newemail2
+            h5.form City
+            input#newcity2
+            h5.form Street
+            input#newstreet2
+            h5.form Zip Code
+            input#newzip2
+            h5.form ID
+            input#newid2
+            h5.form#complete2 Complete
+        #newshipmentform3
+            h5.form Farmer
+            select#newfarmer
+            h5.form Factory
+            select#newfactory
+            h5.form Unit Price
+            input#newup
+            h5.form Requirement
+            input#newreq
+            h5.form ID 
+            input#newid3
+            h5.form#complete3 Complete
+        #newshipmentform4
+            h5.form Driver
+            select#newdriver
+            h5.form Factory
+            select#newfactory2
+            h5.form Unit Price
+            input#newup2
+            h5.form ID 
+            input#newid4
+            h5.form#complete4 Complete
+        h3#allship All Shipments

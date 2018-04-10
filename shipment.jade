@@ -1,0 +1,116 @@
+doctype html
+html
+  head
+    title Research
+    link(rel="icon", type="image/png", href="logo-new.png")
+    link(href='https://fonts.googleapis.com/css?family=Raleway:300,400,700', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700', rel='stylesheet')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+    link(rel='stylesheet', type='text/css', href='index.css')
+    meta(http-equiv="refresh" content="300")
+    link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+  body   
+    script(src='shipment.js', type='text/javascript')
+    script(src='core.js', type='text/javascript')
+    header
+        h1 AVEBE
+        #menu
+            a(href='index.html')
+                h1.menubutton#logout Log Out
+            a(href='farmer.html')#links
+                h1.menubutton#allshipments All Shipments
+            h1#welcome Welcome
+    #filler
+    #content
+        #ID
+            h2#IDval
+        h3 General Information
+        #information
+            #block1
+                h4 Farmer
+                i.material-icons#add1 filter_vintage
+                #line1
+                #stagecol1.stagecol
+                    i.material-icons#building1 business
+                    h5#city1
+                    h5#street1
+                    h5#zip1
+                    #textbox
+                        i.material-icons#person1 account_box
+                        h6#signed1
+                    #textbox
+                        i.material-icons#calendar1 today
+                        h6#date1
+                    #textbox
+                        i.material-icons#comment1 comment
+                        h6#remark1
+
+            #block2
+                h4 Driver
+                i.material-icons#add2 directions_bus
+                #line2
+                #stagecol2.stagecol
+                    i.material-icons#building2 business
+                    h5#city2
+                    h5#street2
+                    h5#zip2
+                    #textbox
+                        i.material-icons#person2 account_box
+                        h6#signed2
+                    #textbox
+                        i.material-icons#calendar2 today
+                        h6#date2
+                    #textbox
+                        i.material-icons#comment2 comment
+                        h6#remark2
+            #block3
+                h4 Lab
+                i.material-icons#add3 playlist_add_check
+                #line3
+                #stagecol3.stagecol
+                    i.material-icons#building3 business
+                    h5#city3
+                    h5#street3
+                    h5#zip3
+                    #textbox
+                        i.material-icons#person3 account_box
+                        h6#signed3
+                    #textbox
+                        i.material-icons#calendar3 today
+                        h6#date3
+                    #textbox
+                        i.material-icons#comment3 comment
+                        h6#remark3
+            #block4
+                h4 Factory
+                i.material-icons#add4 place
+                #line4
+                #stagecol4.stagecol
+                    i.material-icons#building4 business
+                    h5#city4
+                    h5#street4
+                    h5#zip4
+                    #textbox
+                        i.material-icons#person4 account_box
+                        h6#signed4
+                    #textbox
+                        i.material-icons#calendar4 today
+                        h6#date4
+                    #textbox
+                        i.material-icons#comment4 comment
+                        h6#remark4
+        .infoz
+            .infobubble
+                h7.head ID
+                h7#ShipmentID
+            .infobubble
+                h7.head Unit Count
+                h7#ShipmentCount
+            .infobubble
+                h7.head Quality
+                h7#ShipmentQuality
+            .infobubble
+                h7.head Remark
+                h7#ShipmentRemark
+        #button
+            h8#signoff Sign Off
