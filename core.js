@@ -6,7 +6,7 @@ var ContractFarmer;
 var Driver;
 var Farmer;
 var Factory;
-var url = 'https://173.193.75.188:31090/api/'
+var url = 'http://173.193.75.188:31090/api/'
 $(document).ready(function () {
     var height = $('header').css('height');
     height = height.replace('px', '');
